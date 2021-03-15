@@ -1,0 +1,26 @@
+{
+  "name": "api_testing_simple_example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test:parallel": "mocha --parallel test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/penfriend/API_testing_simple_example.git"
+  },
+  "author": "Diana Holik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/penfriend/API_testing_simple_example/issues"
+  },
+  "homepage": "https://github.com/penfriend/API_testing_simple_example#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2",
+    "yargs": "^15.3.1"
+  }
+}
